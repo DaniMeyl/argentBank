@@ -1,9 +1,9 @@
 import React from 'react';
 import Banner from '../../components/banner/banner.jsx';
 import Feature from '../../components/feature/feature.jsx';
-import iconChat from "../../assets/img/icon-chat.png";
-import iconMoney from "../../assets/img/icon-money.png";
-import iconSecurity from "../../assets/img/icon-security.png";
+import iconChat from "../../assets/img/icon-chat.webp";
+import iconMoney from "../../assets/img/icon-money.webp";
+import iconSecurity from "../../assets/img/icon-security.webp";
 import "./home.css"
 
 
