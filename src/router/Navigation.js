@@ -27,12 +27,11 @@ export default function Navigation() {
     <Router>
         <Header />
         <Routes>
-            {/*<Route path="/" element={token?<Home />:<Navigate replace to="/login"/>}/>*/}
+            
             <Route path="/" element={<Home />}/>
             <Route path="/*" element={<Navigate replace to="/"/>}/>
             <Route path="/login" element={<Login />}/>
             <Route path="/profil" element={<UserProfil />}/>
-
 
         </Routes>
         <Footer />
