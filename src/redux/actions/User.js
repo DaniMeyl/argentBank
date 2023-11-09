@@ -68,7 +68,10 @@ export const updateUserName = (token ,userName , dispatch)=>{
     axios.put(`${api}/profile`,{userName},{headers:{Authorization: `Bearer ${token}`}})
     .then ( res =>{
        
-        loginWithToken(token, dispatch);
+        dispatch({
+            type: UPDATE_USER_NAME,
+            payload: userName,
+          });
     }) 
     .catch( res =>{
         dispatch({

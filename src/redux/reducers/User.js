@@ -48,7 +48,7 @@ const userReducer = (state = initialState, action) => {
     }
 
     case UPDATE_USER_NAME:
-      const newUserName = { ...state.user, userName: payload };
+      const newUserName = { ...state.user, userName: action.payload };
 
       return {
         ...state,
