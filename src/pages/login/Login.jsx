@@ -16,7 +16,7 @@ const Login = () => {
   const [password, setPassword] = useState("");
   useEffect(() => {
     if (token) {
-      navigate("/user-profil");
+      navigate("/profil");
     }
   }, [navigate, token]);
   const onLogin = (e) => {

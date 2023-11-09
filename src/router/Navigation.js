@@ -31,7 +31,7 @@ export default function Navigation() {
             <Route path="/" element={<Home />}/>
             <Route path="/*" element={<Navigate replace to="/"/>}/>
             <Route path="/login" element={<Login />}/>
-            <Route path="/user-profil" element={<UserProfil />}/>
+            <Route path="/profil" element={<UserProfil />}/>
 
 
         </Routes>
