@@ -33,7 +33,7 @@ const Header = () => {
         {token ? (
           <div className="nav-login direction-row">
             <NavLink
-              to="/user-profil"
+              to="/profil"
               className="main-nav-item direction-row"
             >
             <FaUserCircle className="fa fa-user-circle" />
